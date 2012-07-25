@@ -1,0 +1,111 @@
+Changelog for Text-Math-NumExp
+
+0.01_11 2012-07-25T12:44:00
+ [André Santos <andrefs@cpan.org>]
+ - minor
+
+ - meta resources from git
+
+ - improved doc
+
+
+v0.01_10 2012-07-19T00:20:01
+ [André Santos <andrefs@cpan.org>]
+ - functions can receive scalar or scalar reference. started synopsis
+
+ - minor
+
+ - updated norm_numexp and test
+
+ - all tests passing
+
+ - solve is more secure: use Safe for eval'ing. Added test for this
+
+
+v0.01_09 2012-06-03T19:14:07
+ [André Santos <andrefs@cpan.org>]
+ - remove trailing spaces in find_numwords
+
+
+v0.01_08 2012-06-03T01:37:12
+ [André Santos <andrefs@cpan.org>]
+ - fixed bug with numify/looks_like_number
+
+
+v0.01_07 2012-05-31T22:42:46
+ [André Santos <andrefs@cpan.org>]
+ - conflicts resolved
+
+ - 'solve' function tries to get the value of a numexp. tests
+
+
+v0.01_06 2012-05-31T22:39:46
+ [André Santos <andrefs@cpan.org>]
+ - 'solve' function tries to get the value of a numexp. tests
+
+ - removed extra files
+
+ - conflicts solved
+
+ - recognition of spelled-out numbers
+
+ - recognition of spelled-out numbers
+
+ - ignore options in find_numexp
+   extreme options in norm_numexp
+   tests for both
+
+ - normalization of multiplications and scientific notation
+
+ - throw away:
+    '-fold' at the end
+    words with '-' at the begining
+
+
+v0.01_05 2012-05-30T22:22:21
+ [André Santos <andrefs@cpan.org>]
+ - cleaned out debug files
+
+ - improved num exp recognition
+
+
+v0.01_04 2012-05-10T14:56:26
+ [André Santos <andrefs@cpan.org>]
+ - migrated to Text::Math::NumExp and new repository
+
+ - renamed to Text::Math::NumExp
+
+
+v0.01_03 2012-04-03T20:45:54
+ [André Santos <andrefs@cpan.org>]
+ - minor
+
+
+v0.01_02 2012-04-03T20:18:55
+ [André Santos <andrefs@cpan.org>]
+ - added function find_numexp
+
+
+v0.01_01 2012-04-03T20:04:17
+ [André Santos <andrefs@cpan.org>]
+ - minor
+
+ - minor
+
+ - migrated to Dist::Zilla
+
+ - s/draft.pl/draft1.pl.  draft2.pl is an improved version which builds an
+   hash with the numexp and the offset. currently, draft1 and draft2
+   recognize EXACTLY the same numexps
+
+ - cleaning draft.pl
+
+ - added bin folder
+
+ - several minor things
+
+ - new way of detecting numbers in draft.pl
+
+ - kick off
+
+
