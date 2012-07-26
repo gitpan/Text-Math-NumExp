@@ -3,12 +3,10 @@ abstract: 'Text::Math::NumExp - Find numeric expressions in text.'
 author:
   - 'Andre Santos <andrefs@cpan.org>'
 build_requires:
-  Data::Dump: 0
   File::Touch: 0
   Test::Deep: 0
   Test::File: 0
   Test::More: 0
-  feature: 0
 configure_requires:
   ExtUtils::MakeMaker: 6.30
 dynamic_config: 0
@@ -19,11 +17,14 @@ meta-spec:
   version: 1.4
 name: Text-Math-NumExp
 requires:
+  Data::Dump: 0
   Exporter: 0
   Lingua::EN::FindNumber: 0
   Safe: 0
   Scalar::Util: 0
+  Text::CSV: 0
   base: 0
+  feature: 0
   perl: 5.006
   strict: 0
   utf8::all: 0
@@ -32,4 +33,4 @@ resources:
   bugtracker: https://github.com/andrefs/Text-Math-NumExp/issues
   homepage: https://github.com/andrefs/Text-Math-NumExp
   repository: git://github.com/andrefs/Text-Math-NumExp.git
-version: 0.01_11
+version: 0.01_12

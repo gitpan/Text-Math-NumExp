@@ -1,6 +1,13 @@
 Changelog for Text-Math-NumExp
 
-0.01_11 2012-07-25T12:44:00
+0.01_12 2012-07-26T22:37:20
+ [André Santos <andrefs@cpan.org>]
+ - script for dumping files numexps to CSV
+
+ - silenced all warnings in solve()
+
+
+v0.01_11 2012-07-25T12:42:31
  [André Santos <andrefs@cpan.org>]
  - minor
 

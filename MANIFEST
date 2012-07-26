@@ -3,6 +3,7 @@ LICENSE
 MANIFEST
 META.yml
 Makefile.PL
+bin/dump_numexp_csv
 dist.ini
 ignore/_
 ignore/_1
@@ -10,6 +11,7 @@ ignore/_2
 ignore/_3
 ignore/_5
 ignore/coiso
+ignore/fulltext.txt
 ignore/numbers
 ignore/numbers_output_expected
 ignore/numbers_output_got
